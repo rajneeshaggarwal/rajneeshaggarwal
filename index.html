@@ -15,6 +15,10 @@
     .to-secondary {
       --tw-gradient-to: #309e76;
     }
+
+    .services-img-height {
+      height: 220px;
+    }
   </style>
 </head>
 
@@ -23,17 +27,18 @@
     <div class="absolute z-0 top-0 w-full h-1/2 bg-cover bg-bottom pt-20 px-12"
       style="background-image: url('https://cdn.arabhardware.net/wp-content/uploads/2020/11/GfinEMFXnT42BFxAcDc2rA.jpg')">
     </div>
-  </div>
+  
   <div
-    class="absolute z-20 bottom-10 left-0 inline-flex space-x-20 justify-center font-bold uppercase tracking-wide text-gray-600">
-    <a href="#services" class="text-cyan-600">Service</a>
+    class="absolute z-20 bottom-10 left-0 w-full inline-flex space-x-20 justify-center font-bold uppercase tracking-wide text-gray-600">
+    <a href="#services" class="text-cyan-600">Services</a>
     <a href="#about" class="text-cyan-600">About</a>
     <a href="#contact" class="text-cyan-600">Contact</a>
   </div>
+</div>
   <div class="relative z-10 flex min-h-screen h-auto justify-center items-center">
     <div class="relative max-w-4xl">
       <div
-        class="absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform-skew-y-6 sm:rotate-6 sm:rounded-lg">
+        class="absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform -skew-y-4 -rotate-6 rounded-lg">
       </div>
       <div class="relative z-20 bg-white md:flex justify-between p-12 shadow-lg rounded-lg w-full max-w-4xl">
           <div class="sm:flex flex-col justify-between space-y-6 py-6 md:pr-10"></div>
@@ -42,16 +47,58 @@
             <h1 class="pt-1 text-5xl font-bold text-gray-800">Rajneesh Aggarwal</h1>
           </div>
           <p class="text-xl leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum 
-            cupiditate saepe alias voluptate cumque amet voluptatum nam porro, nulla magni ut error quisquam 
-            reprehenderit voluptas animi ratione id provident aut!</p>
+            cupiditate saepe alias voluptate cumque amet voluptatum nam porro!</p>
+            <img src="https://media-exp1.licdn.com/dms/image/C5103AQE4cI1f3iH3zA/profile-displayphoto-shrink_800_800/0/1567948291142?e=1650499200&v=beta&t=N09I3vQoRD5lHsxaYXGsYr71JOzYiByZucVSZuAIwVk" 
+          class="z-30 w-80 rounded-full flex-shrink-0 border-6 border-white shadow-medium" alt="">
         </div>
-        <img src="https://monteluke.com.au/wp-content/gallery/linkedin-profile-pictures/34217-MLS-Fabian-Ekker-003flin.jpg" 
-          class="w-80 rounded-full flex-shrink-0 border-6 border-white shadow-medium" alt="">
-
     </div>
+  </div>
+  </div>
+  <section id="services" class="bg-gray-50 pt-20 pb-28 px-8">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center">
+        <h1 class="text-6xl text-gray-800">Services</h1>
+        <p class="pt-2">Here is what I offer</p>
+      </div>
+      <div class="mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
+        <div class="relative">
+          <div class="absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform -skew-y-4 -rotate-6 rounded-lg"></div>
+          <div class="relative z-20 bg-white h-full rounded-md shadow-md">
+             <img src="https://www.rouge-media.com/wp-content/uploads/2019/05/web-app-illustration-1.png" class="rounded-t-md services-img-height" alt="">
+              <div class="px-10 pb-6">
+                <h2 class="pt-3 font-bold text-2xl text-gray-800">Responsive Websites</h2>
+                <p class="pt-3 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum 
+                  cupiditate saepe alias voluptate cumque amet voluptatum nam porro!</p>
+              </div>
+            </div> 
+        </div>
 
-  </div>
-  </div>
+        <div class="relative">
+          <div class="absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform -skew-y-4 -rotate-6 rounded-lg"></div>
+          <div class="relative z-20 bg-white h-full rounded-md shadow-md">
+             <img src="https://www.scnsoft.com/blog-pictures/web-apps/eng---progressive-web-apps.png" class="rounded-t-md services-img-height" alt="">
+              <div class="px-10 pb-6">
+                <h2 class="pt-3 font-bold text-2xl text-gray-800">Progessive Web Apps</h2>
+                <p class="pt-3 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum 
+                  cupiditate saepe alias voluptate cumque amet voluptatum nam porro!</p>
+              </div>
+            </div> 
+        </div>
+
+        <div class="relative">
+          <div class="absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform -skew-y-4 -rotate-6 rounded-lg"></div>
+          <div class="relative z-20 bg-white h-full rounded-md shadow-md">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxYi4Gl-6l0HiydzXNLRmZjWXqYGzV_043miam7tjpVC6rWbv6uDUmlWa9mSvLgaTji7A&usqp=CAU" class="rounded-t-md services-img-height" alt="">
+              <div class="px-10 pb-6">
+                <h2 class="pt-3 font-bold text-2xl text-gray-800">Mobile Apps</h2>
+                <p class="pt-3 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum 
+                  cupiditate saepe alias voluptate cumque amet voluptatum nam porro!</p>
+              </div>
+            </div> 
+        </div>
+      </div>
+    </div>
+  </section>
 
 </body>
 
